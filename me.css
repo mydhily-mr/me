@@ -1,0 +1,40 @@
+/*header{
+background-color: #dccdba;
+}*/
+
+h1{
+color: #000000;
+text-align: center;
+
+}
+
+h2{
+color: #000060;
+text-align: center;
+text-transform: uppercase;
+}
+
+body{
+  #grad1
+    height: 600px;
+    font-size: 35px;
+    background-image: linear-gradient(to left, rgba(110,135,215,1), rgba(70,198,240,1));
+  }
+
+
+section{
+width: auto;
+}
+
+
+
+nav a{
+  text-align: left;
+color: #ffffff;
+background-color: #000000;
+text-align: center;
+}
+
+/*img{
+display: none;
+*/
