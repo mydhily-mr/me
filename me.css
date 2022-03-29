@@ -14,11 +14,12 @@ text-align: center;
 text-transform: uppercase;
 }
 
+
 body{
   #grad1
     height: 600px;
     font-size: 35px;
-    background-image: linear-gradient(to left, rgba(110,135,215,1), rgba(70,198,240,1));
+    background-image: linear-gradient(to left, rgba(110,135,215,1), rgba(89,239,203,1));
   }
 
 
@@ -33,6 +34,18 @@ nav a{
 color: #ffffff;
 background-color: #000000;
 text-align: center;
+}
+
+footer{
+  position: absolute;
+    bottom: 5;
+    left: 0;
+    right: 0;
+    background: #111111;
+    height: 10%;
+    width: 100%;
+    padding-top: 40px;
+    color: #ffffff;
 }
 
 /*img{
