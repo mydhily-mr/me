@@ -17,8 +17,7 @@ text-transform: uppercase;
 
 body{
   #grad1
-    height: 600px;
-    font-size: 35px;
+    height: auto;
     background-image: linear-gradient(to left, rgba(110,135,215,1), rgba(89,239,203,1));
   }
 
