@@ -14,25 +14,146 @@ text-align: center;
 text-transform: uppercase;
 }
 
+header{
+	/*background: #6d8bd6;*/
+	text-align: center;
+	padding-bottom: 15px;
+}
+nav{
+	position: fixed;
+	width=100%;
+  background: #120344;
+	font-variant: small-caps;
+	font-family: Verdana, "Arial", "Times New Roman", serif;
+	font-size: 150%;
+  padding-bottom: 15px;
+}
 
+section.skills1{
+	display:block;
+	font-size: 200%;
+}
+section.education{
+	display:block;
+	font-size: 150%;
+}
+section.more1{
+	font-size: 150%;
+width: 100%;
+padding:50px;
+background-color: #85ACB6
+
+/*display:inline-block;
+float:left;*/
+}
+.About{
+	font-size: 150%
+
+}
 body{
   #grad1
     height: auto;
     background-image: linear-gradient(to left, rgba(110,135,215,1), rgba(89,239,203,1));
+		overflow: hidden;
+    overflow-y: scroll;
+    top: 0; right: 0; bottom: 0; left: 0;
   }
 
 
 section{
 width: auto;
+/*margin-right: 2%;
+display:inline-block;
+float:left;*/
 }
 
+section.edu{
 
+	/*margin-right: 2%;
+	display:block;
+	float:left;
+	width: 100%;*/
+	font-size: 150%;
+	background: #466368;
+/*background: -webkit-linear-gradient(#648880, #293f50);
+/*	background-color: lightgrey;
+
+ /*width: 75%;
+ border: 5px solid green;
+ padding: 50px;
+ margin: 20px;*/
+
+}
 
 nav a{
   text-align: left;
 color: #ffffff;
 background-color: #000000;
 text-align: center;
+}
+
+a.button{
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+    background: #none;
+    width: 200px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    margin:0 auto;  /*Centers the element*/
+    margin-top: 10px;
+}
+
+/*When mouse hovers over link*/
+a.button:hover{
+  #link
+    background: #B3B3B3;
+    color: #0006CC;
+}
+
+/*When user tabs to this link*/
+a.button:focus{
+  #link
+    background: #B3B3B3;
+    color: #0006CC;
+}
+
+/*When user clicks and holds mouse button on this link*/
+a.button:active{
+  #link
+    border: 3px solid #000000;
+}
+a.button2 {
+  display: inline-block;
+  padding: 10px 0px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #63BBD1;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #85ACB6;
+}
+
+a.button2:hover {
+  background-color: #85ACB6
+}
+a.button2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+summary{
+	font-style:normal;
+}
+
+details{
+	font-style: italic;
 }
 
 footer{
@@ -45,8 +166,11 @@ footer{
     width: 100%;
     padding-top: 40px;
     color: #ffffff;
+    clear: both;
 }
-
 /*img{
+	width: 75px;
+}
+img{
 display: none;
 */
