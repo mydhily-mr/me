@@ -25,20 +25,20 @@ nav{
   background: #120344;
 	font-variant: small-caps;
 	font-family: Verdana, "Arial", "Times New Roman", serif;
-	font-size: 150%;
+	font-size: 1.750rem;
   padding-bottom: 15px;
 }
 
 section.skills1{
 	display:block;
-	font-size: 200%;
+font-size: 1.750rem;
 }
 section.education{
 	display:block;
-	font-size: 150%;
+	font-size: 1.750rem;
 }
 section.more1{
-	font-size: 150%;
+font-size: 1.750rem;
 width: 100%;
 padding:50px;
 background-color: #85ACB6
@@ -47,7 +47,7 @@ background-color: #85ACB6
 float:left;*/
 }
 .About{
-	font-size: 150%
+	font-size: 1.750rem;
 
 }
 body{
@@ -73,7 +73,7 @@ section.edu{
 	display:block;
 	float:left;
 	width: 100%;*/
-	font-size: 150%;
+	font-size: 1.750rem;
 	background: #466368;
 /*background: -webkit-linear-gradient(#648880, #293f50);
 /*	background-color: lightgrey;
